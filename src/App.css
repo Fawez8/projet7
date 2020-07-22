@@ -1,0 +1,56 @@
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #c3bcaa;
+}
+
+.my-col {
+  margin: 20px auto;
+}
+
+.movie {
+  margin: auto;
+  background-color: "#c3bcaa";
+  filter: brightness(85%);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.addmovie {
+  position: fixed;
+  top: 200px;
+  left: 90%;
+  z-index: 10;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+}
+.addmovie:hover {
+  filter: brightness(110%);
+}
+
+.btnsubmit {
+  float: right;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+.description {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.my-star {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
